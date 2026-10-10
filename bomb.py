@@ -905,7 +905,7 @@ async def plan_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f'   ├ Duration: {p["days"]} Days\n'
                 f'   ├ Concurrent: {p["concurrent"]} targets\n'
                 f'   └ Max Duration: {p["max_duration"]} min\n\n')
-    msg += f'{E_KEY} Use /redeem if you have a code.\n💬 Contact @Monsterbhaiii or @skhgang1'
+    msg += f'{E_KEY} Use /redeem if you have a code.\n💬 Contact @METOCXIC'
     kb = InlineKeyboardMarkup([[InlineKeyboardButton("👤 Contact Admin", url=f"tg://user?id={OWNER_ID}")]])
     await update.message.reply_text(msg, reply_markup=kb, parse_mode=ParseMode.HTML)
 
